@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    height: 100%;
+    width: 100%;
+}
+section[aria-label="navbar"] {
+    height: 20%;
+    width: 100%;
+}
+nav.navbar-container {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img[alt="brand-logo"] {
+    width: 65%;
+}
+.grow-list {
+    width: 60%;
+}
+ul.list {
+    display: flex;
+    justify-content: flex-start;
+}
+li.list-item {
+    margin-right: 3%;
+}
+.button-group {
+    width: 10%;
+}
+.button-group button.nav-button {
+    width: 100%;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: #0707b9c2;
+    border: none;
+    color: white;
+}
+section[aria-label="banner"] {
+    height: 80vh;
+    width: 95%;
+    margin-left: 5%;
+}
+.banner-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.banner-container div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    WIDTH: 31%;
+    height: 100%;
+    justify-content: flex-start;
+}
+h1.heading-text {
+    font-size: 3em;
+    margin: 6% 0%;
+    color: #171789;
+}
+span {
+    color:  #242456;
+}
+p.description {
+    width: 81%;
+    margin-bottom: 13%;
+}
+button.nav-button.btn {
+    width: 32%;
+    height: 8%;
+    background-color:#0707b9c2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.banner-container div:nth-child(2){
+    height: 78vh;
+    width: 69%;
+}
+img[alt="illustration"]{
+    height: 100%;
+    width: 100%;
+}

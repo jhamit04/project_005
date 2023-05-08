@@ -1,0 +1,18 @@
+@media  only screen and (max-width:600px) {
+    h1.heading-text{
+        font-size: 1em;
+    }
+    p.description {
+        font-size: 10px;
+    }
+    img {
+         max-width: 50%;
+         max-height: 50%
+    }
+    .button-group button.nav-button {
+        font-size: 10px;
+    }
+    .grow-list{
+        font-size:  10px;
+    }
+}
